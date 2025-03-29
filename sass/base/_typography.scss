@@ -1,0 +1,57 @@
+@import '../utils/variables';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.main{
+   p{
+    color: $grey;
+    font-size: 0.8rem;
+    font-family: 'Monsterrat', sans-serif;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+   h1, &__price{
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+}
+    &__info--para{
+     margin-top: 1rem;
+    }
+   &__price{
+    color: $Green-500;
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+   &__span{
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: $grey;
+    text-decoration: line-through $grey 1px;
+    margin-left: 1rem;
+}
+   &__price, &__span{
+    display: flex;
+    align-items: center;
+}
+   button{
+    background-color: $Green-500;
+    color: $White;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+}
+   button, &__cart--icon{
+    margin-right: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   button:hover{
+    background-color: $Green-700;
+    cursor: pointer;
+   }
+}

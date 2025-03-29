@@ -1,0 +1,15 @@
+.main__info{
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+    max-width: 90%;
+    &--type{
+        text-transform: uppercase;
+        letter-spacing: 0.4rem;
+        padding-top: 1rem;
+    }
+    &--title{
+        font-size: 1.6rem;
+        font-weight: 900;
+        padding-top: 0.4rem;
+    }
+}

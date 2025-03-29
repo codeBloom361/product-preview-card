@@ -1,0 +1,78 @@
+@import '../utils/variables';
+
+body{
+    background-color: $Cream;
+}
+
+.main{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+    .main__content{
+        background-color: $White;
+        border-radius: 8px;
+    }
+    &__img--desktop{
+        display: none;
+    }
+    &__img--mobile{
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+}
+
+@media screen and (min-width: 968px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .main{
+        &__img--mobile{
+            display: none;
+        }
+        &__img--desktop{
+            display: block;
+            width: 50%;
+            border-radius: 8px 0 0 8px;
+        }
+        &__content, &__img--desktop{
+            display: flex;
+        }
+        .main__info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 2rem;
+            //height: fit-content;
+        }
+        .main__info--type{
+            font-size: 1rem;
+            padding-bottom: 0.5rem;
+        }
+        .main__info--title{
+            font-size: 2.2rem;
+            font-weight: 800;
+            padding-bottom: 0.4rem;
+        }
+        .main__info--para{
+            font-size: 1.1rem;
+            padding-bottom: 1rem;
+        }
+        .main__price{
+            padding-bottom: 1rem;
+            font-weight: 900;
+        }
+    }
+    .attribution{
+        position: absolute;
+        bottom: 1rem;
+        right: 39%;
+        
+    }
+    
+}

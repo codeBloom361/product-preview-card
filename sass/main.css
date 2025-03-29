@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main p {
+  color: hsl(228, 12%, 48%);
+  font-size: 0.8rem;
+  font-family: "Monsterrat", sans-serif;
+  line-height: 1.6;
+  font-weight: 500;
+}
+.main h1, .main__price {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+}
+.main__info--para {
+  margin-top: 1rem;
+}
+.main__price {
+  color: hsl(158, 36%, 37%);
+  margin: 1rem 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.main__span {
+  font-family: "Monsterrat", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  -webkit-text-decoration: line-through hsl(228, 12%, 48%) 1px;
+          text-decoration: line-through hsl(228, 12%, 48%) 1px;
+  margin-left: 1rem;
+}
+.main__price, .main__span {
+  display: flex;
+  align-items: center;
+}
+.main button {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+}
+.main button, .main__cart--icon {
+  margin-right: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main button:hover {
+  background-color: hsl(158, 42%, 18%);
+  cursor: pointer;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.main {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+}
+.main .main__content {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+}
+.main__img--desktop {
+  display: none;
+}
+.main__img--mobile {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+@media screen and (min-width: 968px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .main__img--mobile {
+    display: none;
+  }
+  .main__img--desktop {
+    display: block;
+    width: 50%;
+    border-radius: 8px 0 0 8px;
+  }
+  .main__content, .main__img--desktop {
+    display: flex;
+  }
+  .main .main__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .main .main__info--type {
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  .main .main__info--title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    padding-bottom: 0.4rem;
+  }
+  .main .main__info--para {
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+  }
+  .main .main__price {
+    padding-bottom: 1rem;
+    font-weight: 900;
+  }
+  .attribution {
+    position: absolute;
+    bottom: 1rem;
+    right: 39%;
+  }
+}
+.attribution {
+  text-align: center;
+  font-size: small;
+}
+.attribution a {
+  text-decoration: none;
+}
+
+.main__info {
+  padding-left: 1.5rem;
+  padding-bottom: 1.5rem;
+  max-width: 90%;
+}
+.main__info--type {
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  padding-top: 1rem;
+}
+.main__info--title {
+  font-size: 1.6rem;
+  font-weight: 900;
+  padding-top: 0.4rem;
+}/*# sourceMappingURL=main.css.map */
