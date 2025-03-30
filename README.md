@@ -12,9 +12,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 This is product preview card component that can be used in e-commerce websites.
@@ -33,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://codebloom361.github.io/product-preview-card/](https://codebloom361.github.io/product-preview-card/)
 
 ## My process
 I followed the mobile-first workflow approach to make this responsive product preview card and added a breakpoint for bigger screens.
@@ -55,4 +53,4 @@ I will continue to learn sass and responsive layputs.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@codeBloom361](https://www.frontendmentor.io/profile/codeBloom361)

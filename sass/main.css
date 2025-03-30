@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-.main p {
+.main__info--type, .main__info--para {
   color: hsl(228, 12%, 48%);
   font-size: 0.8rem;
   font-family: "Monsterrat", sans-serif;
