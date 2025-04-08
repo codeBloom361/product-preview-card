@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-product-preview-card-using-sass-5lHPbHbFTP](https://www.frontendmentor.io/solutions/responsive-product-preview-card-using-sass-5lHPbHbFTP)
 - Live Site URL: [https://codebloom361.github.io/product-preview-card/](https://codebloom361.github.io/product-preview-card/)
 
 ## My process
